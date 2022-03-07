@@ -60,7 +60,7 @@ main:
 
 
 
-msg_hello: db 'Hack The Planet!', ENDL, 0
+msg_hello: db 'Hello World!', ENDL, 0
 
 times 510-($-$$) db 0
 dw 0AA55h
